@@ -25,14 +25,14 @@ function Plugin() {
   return (
     <Container style="padding: 0">
       <Banner icon={<IconMegaphone32 />}>
-      Welcome to the Design Toolkit plugin
+      Welcome to the File Scribe plugin
     </Banner>
       <Container>
         <VerticalSpace space="large" />
         <Text bold>Automations</Text>
         <VerticalSpace space="medium" />
         <Button fullWidth onClick={handlePageButtonClick}>
-          Setup design document
+          Setup a new project
         </Button>
         <VerticalSpace space="large" />
       </Container>
