@@ -18,12 +18,12 @@
     "editorType": [
       "figma"
     ],
-    "name": "Design Toolkit",
+    "name": "File Scribe",
     "main": "src/main.ts",
     "ui": "src/ui.tsx",
     "relaunchButtons": {
       "designToolkit": {
-        "name": "Design Toolkit",
+        "name": "File Scribe",
         "main": "src/main.ts",
         "ui": "src/ui.tsx"
       }
