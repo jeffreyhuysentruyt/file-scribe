@@ -14,77 +14,41 @@ export default async function () {
   once<CreatePageHandler>("CREATE_PAGES", function () {
     // This is the list of pages to create in your document.
     const pages = [
-      { name: "Cover", node: "PAGE", title: "Cover" },
       {
-        name: "🤔 About",
+        name: "📐 Designs (Hi-Fi)",
         node: "PAGE",
-        title: "About",
-        description: "Project overview",
+        // title: "High Fidelity",
+        // description: "High Fidelity Designs",
       },
       {
-        name: "💻 Prototype",
+        name: "🛠 Flows & Wires (Lo-Fi)",
         node: "PAGE",
-        title: "Prototype",
-        description: "Interactive prototype",
+        // title: "Low Fidelity",
+        // description: "User flows & wire frames",
       },
       {
-        name: "✅ Ready for dev",
+        name: "🎥 Prototype",
         node: "PAGE",
-        title: "Ready for dev",
-        description: "Approved designs, ready for development",
-      },
-      { name: "--------", node: "PAGE" },
-      {
-        name: "✏️ Copy review",
-        node: "PAGE",
-        title: "Copy review",
-        description: "Content for review and sign off",
+        // title: "Prototype",
+        // description: "Interactive prototype",
       },
       {
-        name: "[Date] Design review",
+        name: "📁 Docs & Info",
         node: "PAGE",
-        title: "Design review",
-        description: "[Date]",
+        // title: "Docs & Info",
+        // description: "Relevant Documentation",
+      },
+      { 
+        name: "🖼 Thumbnail",
+        node: "PAGE",
+        title: "Cover", 
+        description: "Thumbnail",
       },
       {
-        name: "[Date] Feature/component",
+        name: "☠️Graveyard",
         node: "PAGE",
-        title: "Feature/component",
-        description: "[Date]",
-      },
-      { name: "--------", node: "PAGE" },
-      {
-        name: "💡 Work in progress",
-        node: "PAGE",
-        title: "Work in progress",
-        description:
-          "Explorations and work in progress, not ready for development",
-      },
-      { name: "--------", node: "PAGE" },
-      {
-        name: "🎨 Design research",
-        node: "PAGE",
-        title: "Design research",
-        description:
-          "Collected research artefacts and data from existing resources",
-      },
-      {
-        name: "👩🏽‍💻 User research",
-        node: "PAGE",
-        title: "User research",
-        description: "Generative field research",
-      },
-      {
-        name: "Workshop",
-        node: "PAGE",
-        title: "Workshop",
-        description: "Artefacts for workshop activity",
-      },
-      {
-        name: "Flows",
-        node: "PAGE",
-        title: "Flows",
-        description: "Journey flows and logic",
+        // title: "Graveyard",
+        // description: "Unused designs, wire frames, flows",
       },
     ];
 
